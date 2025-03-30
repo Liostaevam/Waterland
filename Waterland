@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цирк на воді Waterland</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('https://source.unsplash.com/1600x900/?water,circus') no-repeat center center/cover;
+            text-align: center;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 50px;
+            border-radius: 15px;
+            display: inline-block;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 50px;
+            color: #00c3ff;
+            text-transform: uppercase;
+        }
+        p {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: white;
+            background: #ff4500;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #ff6347;
+        }
+        table {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.8);
+            color: black;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background: #00c3ff;
+            color: white;
+        }
+        td {
+            background: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Цирк на воді Waterland</h1>
+        <p>Незабутнє шоу з водними спецефектами, акробатами та магічною атмосферою!</p>
+        <p>Квитки вже у продажу! Поспішайте забронювати найкращі місця!</p>
+
+        <h2>Ціни на квитки</h2>
+        <table>
+            <tr>
+                <th>Категорія</th>
+                <th>Ціна (грн)</th>
+            </tr>
+            <tr>
+                <td>Дитячий</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Дорослий</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>VIP</td>
+                <td>800</td>
+            </tr>
+        </table>
+
+        <a href="https://gptonline.ai/ru/" class="button">Купити квитки</a>
+    </div>
+
+</body>
+</html>
